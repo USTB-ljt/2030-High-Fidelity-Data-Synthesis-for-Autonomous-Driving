@@ -79,3 +79,22 @@ a:hover {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.text-image-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+}
+
+.inline-image {
+  width: 300px;  /* 可调宽度 */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
